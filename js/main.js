@@ -21,6 +21,8 @@ console.log(`question2 ${question2}`);
 console.log(score);
 if (question3 == null) {
     score += 0;
+} else if (question3 == '') {
+    score += 0;
 } else if (question3 === 'undefined', 'infinity', 'бесконечность') {
     score += 10;
 } else {
@@ -32,7 +34,9 @@ console.log(score);
 
 if (question4 == null) {
     score += 0;
-} else if (question4 === 'blue', 'голубой', 'голубого') {
+} else if (question4 == '') {
+    score += 0;
+} else if (question3 === 'undefined', 'infinity', 'бесконечность') {
     score += 10;
 } else {
     score += 0;
